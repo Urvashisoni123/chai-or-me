@@ -2,9 +2,11 @@
   "name": "chai-aur-javascript",
   "version": "1.0.0",
   "description": "a basic app to deploy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev" : "nodemon/src/index.js"
+
   },
   "keywords": [
     "node"
@@ -14,5 +16,8 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
