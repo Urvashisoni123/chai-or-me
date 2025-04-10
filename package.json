@@ -13,6 +13,8 @@
   "author": "Urvashi soni",
   "license": "ISC",
   "dependencies": {
+    "cookies-parser": "^1.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.13.2"
